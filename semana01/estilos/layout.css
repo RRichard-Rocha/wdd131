@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 2rem;
+    grid-column: 1/4;
+}
+body {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    background-color: rgb(8, 50, 85);
+
+
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(8, 50, 85);
+    padding: 1rem;
+
+}
+nav a {
+    text-decoration: none;
+}
+main {
+    grid-column: 2/4;
+    padding: 2rem;
+
+}
+
+aside {
+    grid-column: 1/2;
+    padding: 2rem;
+}
+footer {
+    grid-column: 1/4;
+    padding: 2rem;
+}

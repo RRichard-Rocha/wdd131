@@ -10,14 +10,14 @@ body {
 }
 
 header {
-    background-color: slategray;
+    background-color: #4a5568;
     padding-top: 0.9rem;
     text-align: center;
 }
 
 header span {
     display: block;
-    color: floralwhite;
+    color: #ffffff;
     font-size: 1rem;
     padding-bottom: 0.5rem;
 }
@@ -26,6 +26,9 @@ nav {
     display: flex;
     flex-direction: row;
     background-color: rgb(65, 67, 70);
+}
+nav a {
+    color: #ffffff;
 }
 
 a {

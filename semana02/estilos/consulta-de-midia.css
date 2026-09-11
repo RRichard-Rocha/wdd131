@@ -12,7 +12,7 @@ header, main, footer {
     max-width: 640px;
     justify-content: center;
     margin: 1rem auto;
-    border-radius: 1px rgb(0,0,0);
+    border: 1px solid rgb(0,0,0);
     padding: 1rem;
     background-color: rgb(161, 161, 243);
 }

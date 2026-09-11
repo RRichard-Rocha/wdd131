@@ -2,40 +2,42 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 body {
     background-color: floralwhite;
-    font-family: "Valley Sans", serif;
-
+    font-family: "Roboto", sans-serif;
 }
 
 header {
     background-color: slategray;
     padding-top: 0.9rem;
-
-
+    text-align: center;
 }
 
-header h1 {
-    padding-bottom: 1rem;
+header span {
+    display: block;
     color: floralwhite;
-    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 nav {
     display: flex;
-    flex-direction: row 1 1 auto;
+    flex-direction: row;
     background-color: rgb(65, 67, 70);
 }
 
 a {
     text-decoration: none;
     display: block;
-    padding: 0.5rem;
-    font-size: 1.2rem;
+    padding: 0.8rem;
+    font-size: 1.1rem;
     color: floralwhite;
+}
+
+a:hover {
+    background-color: slategray;
 }
 
 main {
@@ -46,8 +48,6 @@ main {
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
-
-
 }
 
 main h1 {
@@ -55,17 +55,15 @@ main h1 {
     justify-self: center;
     padding-bottom: 10px;
     color: black;
-
-
+    font-size: 2rem;
 }
 
 .card {
-    margin-left: 20px;
-    margin-right: 20px;
     border: 1px solid slategray;
     border-radius: 10px;
     overflow: hidden;
-
+    display: flex;
+    flex-direction: column;
 }
 
 .card h2 {
@@ -73,20 +71,39 @@ main h1 {
     color: black;
     padding: 10px;
     text-align: center;
-
-
-
 }
 
-.card {
-    background: #fcfcd7;
+.sobremim {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    text-align: justify;
+}
+.sobremim img{
+    max-width: 150px;
+    border-radius: 5px;
+}
 
+.card ul {
+    padding: 1.5rem;
+    list-style-type: disc;
+}
+
+.card ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card ul li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.2rem 0;
+    display: inline;
 }
 
 footer {
     background-color: slategrey;
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: center;
 }

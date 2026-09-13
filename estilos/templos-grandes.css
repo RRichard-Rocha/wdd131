@@ -1,0 +1,24 @@
+@media screen and (min-width: 768px) {
+    #menu {
+        display: none;
+    }
+
+    nav {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background-color: transparent;
+    }
+
+    nav a {
+        border-bottom: none;
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+    }
+
+    .galeria {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+}

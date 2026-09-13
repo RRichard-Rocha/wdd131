@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Álbum do Templo - Richard Machado da Rocha</title>
+    <meta name="description" content="WDD 131 – Fundamentos da Web Dinâmica, Tarefa: Álbum de Imagens - Semana 02">
+    <meta name="author" content="Richard Rocha">
+    <link rel="stylesheet" href="estilos/templos.css">
+    <link rel="stylesheet" href="estilos/templos-grandes.css" media="screen and (min-width: 768px)">
+    <script src="scripts/templos.js" defer></script>
+    <script src="scripts/obterdatas.js" defer></script>
+    
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <span>Álbum do Templo</span>
+        <button id="menu" aria-label="Abrir Menu de Navegação"></button>
+        <nav id="animar-nav">
+            <a href="#">Página Inicial</a>
+            <a href="#">Antigo</a>
+            <a href="#">Novo</a>
+            <a href="#">Grande</a>
+            <a href="#">Pequeno</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Fotos de Templos</h1>
+        <div class="galeria">
+            <figure>
+                <img src="imagens/abidja-costa-do-marfim.jpeg" alt="Templo Abidja - Costa do Marfim" loading="lazy">
+                <figcaption>Templo Abidja - Costa do Marfim</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo-aba-nigeria.jpeg" alt="Templo ABA - Nigéria" loading="lazy">
+                <figcaption>Templo ABA - Nigéria</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo-lago-salgado.jpg" alt="Templo Salt Lake - EUA" loading="lazy">
+                <figcaption>Templo Salt Lake - EUA</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/templo-largo.jpeg" alt="Templo Acra - Gana" loading="lazy">
+                <figcaption>Templo Acra - Gana</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/curitiba_brazil_temple.webp" alt="Templo Curitiba - Brasil" loading="lazy">
+                <figcaption>Templo Curitiba - Brasil</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/sao_paulo_brazil_temple_lds.webp" alt="Templo São Paulo - Brasil" loading="lazy">
+                <figcaption>Templo São Paulo - Brasil</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/Templo-Fortaleza.webp" alt="Templo Fortaleza - Brasil" loading="lazy">
+                <figcaption>Templo Fortaleza - Brasil</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/helena_montana.webp" alt="Templo Helena Montana - EUA" loading="lazy">
+                <figcaption>Templo Helena Montana - EUA</figcaption>
+            </figure>
+            <figure>
+                <img src="imagens/abuquerque_temple.webp" alt="Templo Albuquerque - EUA" loading="lazy">
+                <figcaption>Templo Albuquerque - EUA</figcaption>
+            </figure>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="anoatual"></span>💀Richard Rocha💀Paraná, Brasil</p>
+        <p id="ultimaModificacao"></p>
+    </footer>
+</body>
+</html>

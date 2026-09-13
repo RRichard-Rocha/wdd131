@@ -41,18 +41,18 @@ header span {
 }
 
 nav {
-    display: none;
+    display: flex;
     flex-direction: column;
     width: 100%;
     background-color: rgb(49, 56, 67);
     position: absolute;
     top: 100%;
-    left: 0;
+    left: -9999px;
     z-index: 10;
 }
 
 nav.open {
-    display: flex;
+    left: 0;
 }
 
 nav a {

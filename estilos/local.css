@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-principal: rgba(0, 82, 159, 1);
+    --cor-fundo: rgba(244, 244, 244, 1);
+    --cor-transparente: rgba(0, 82, 159, 0.2);
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: sans-serif;
+}
+
+header {
+    background-color: var(--cor-principal);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.clima {
+    background-color: rgba(255, 255, 255, 1);
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.clima h2::before {
+    content: "⛅";
+    font-size: 1.2rem;
+}
+
+main img {
+    width: 100%;
+    max-width: 860px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: var(--cor-principal);
+}
+

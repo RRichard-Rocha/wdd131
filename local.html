@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 131 – Fundamentos da Web Dinâmica - Richard Machado da Rocha</title>
+    <meta name="description" content="WDD 131 – Fundamentos da Web Dinâmica, Tarefa Pagina Pais - Semana 03">
+    <meta name="author" content="Richard Rocha">
+    <link rel="stylesheet" href="estilos/local.css">
+    <link rel="stylesheet" href="estilos/local-grande.css">
+    <script src="scripts/obterdatas.js" defer></script>
+    <script src="scripts/clima.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Richard Rocha</h1>
+    </header>
+    
+    <main>
+        <div>
+            <picture>
+                <img src="imagens/santiagobernabeu.webp" alt="Estádio Santiago Bernabeu" width="860" height="500">
+            </picture>
+        </div>
+
+        <section class="clima">
+            <h2>Clima</h2>
+            <p>Temperatura: <span id="temperatura">10</span> °C</p>
+            <p>Vento: <span id="vento">12</span> km/h</p>
+            <p>Sensação Termica: <span id="sensacao">10</span> °C</p>
+            
+        </section>
+        <section class="dados">
+            <h2>Dados do Local</h2>
+            <dl>
+                <dt>Inauguração:</dt>
+                <dd>1947</dd>
+                <dt>Capacidade:</dt>
+                <dd>81.044 lugares</dd>
+                <dt>Time:</dt>
+                <dd>Real Madrid</dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <p>&copy;<span id="anoatual"></span> 💀Richard Rocha💀 Paraná, Brasil</p>
+        <p>Última Modificação: <span id="ultimaModificacao"></span></p>
+    </footer>
+
+</body>

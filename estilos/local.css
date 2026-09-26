@@ -37,6 +37,11 @@ header {
     font-size: 1.2rem;
 }
 
+.dados h2::after {
+    content: "📋";
+    font-size: 1.2rem;
+}
+
 main img {
     width: 100%;
     max-width: 860px;
@@ -50,3 +55,10 @@ footer {
     background-color: var(--cor-principal);
 }
 
+.icone-svg {
+    width: 28px !important;
+    height: 28px !important;
+    vertical-align: middle;
+    margin-left: 8px;
+    display: inline-block;
+}

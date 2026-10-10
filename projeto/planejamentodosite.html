@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento de Planejamento do Site – FDM 3D Hub</title>
+    <meta name="description" content="Documento de planejamento do projeto final focado em Impressão 3D FDM para a disciplina WDD 131.">
+    <meta name="author" content="Richard Machado da Rocha">
+    <link rel="stylesheet" href="estilos/planejamento.css">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Planejamento do Site: FDM 3D Hub</h1>
+        <p>Projeto Final — WDD 131 Fundamentos da Web Dinâmica</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>1. Nome do Site</h2>
+            <p><strong>Nome Escolhido:</strong> FDM 3D Hub</p>
+            <p><strong>Motivo da Escolha:</strong> O nome transmite modernidade e funciona como um ponto de encontro (hub) central para entusiastas, makers e profissionais da tecnologia de fabricação por filamento fundido (FDM).</p>
+            <p><strong>Disponibilidade de Domínio (Opcional):</strong> <code>fdm-3dhub.org</code></p>
+        </section>
+
+
+        <section>
+            <h2>2. Finalidade do Site</h2>
+            <p>O site servirá como um guia prático e referência técnica para impressão 3D FDM. Ele fornecerá tutoriais de calibração, características de filamentos (como PLA, PETG e ABS), perfis de corte (slicers) e resolução de problemas comuns de extrusão, acompanhado de um formulário interativo de contacto e orçamento de peças.</p>
+        </section>
+
+    
+        <section>
+            <h2>3. Cenários do Público-Alvo</h2>
+            <p>Os visitantes do site procurarão respostas para perguntas como:</p>
+            <ul>
+                <li>Qual é a temperatura ideal de bico e mesa para imprimir filamento PETG sem problemas de aderência?</li>
+                <li>Como posso configurar o fatiador (slicer) para evitar o empenamento (warping) em peças grandes feitas de ABS?</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>4. Esquema de Cores (Estrito em RGBA)</h2>
+            <p>A paleta combina tons industriais e de alta tecnologia, utilizando exclusivamente valores <code>rgba()</code>:</p>
+            <ul>
+                <li><strong>Azul Tecnológico (<code>rgba(24, 43, 73, 1)</code>):</strong> Utilizado nos cabeçalhos e na barra de navegação principal.</li>
+                <li><strong>Laranja Maker (<code>rgba(235, 94, 40, 1)</code>):</strong> Utilizado para acentos, bordas e elementos de destaque (remetendo às cores clássicas de equipamentos e filamentos).</li>
+                <li><strong>Cinza Claro de Fundo (<code>rgba(245, 247, 250, 1)</code>):</strong> Utilizado como cor de fundo geral da página para conforto visual.</li>
+                <li><strong>Carvão Escuro (<code>rgba(33, 37, 41, 1)</code>):</strong> Utilizado nos textos dos parágrafos para garantir alto contraste e legibilidade.</li>
+            </ul>
+        </section>
+
+
+        <section>
+            <h2>5. Tipografia</h2>
+            <p>Fontes selecionadas para manter a clareza técnica e um visual limpo:</p>
+            <ul>
+                <li><strong>Montserrat (Pesos 600 e 700):</strong> Aplicada a todos os títulos (<code>&lt;h1&gt;</code>, <code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>).</li>
+                <li><strong>Open Sans (Pesos 400 e 600):</strong> Aplicada ao corpo do texto e listas.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>6. Wireframes</h2>
+            <div class="wireframe-container">
+                <div class="wireframe-box">
+                    <h3>Visualização Mobile (Retrato/Paisagem)</h3>
+                    <ul>
+                        <li>Cabeçalho vertical com logótipo e menu hambúrguer interativo.</li>
+                        <li>Secção principal com banner técnico e cartões empilhados verticalmente.</li>
+                        <li>Rodapé compacto com data dinâmica e links de referências.</li>
+                    </ul>
+                </div>
+
+                <div class="wireframe-box">
+                    <h3>Visualização Desktop (Telas Maiores)</h3>
+                    <ul>
+                        <li>Cabeçalho horizontal com navegação distribuída e menu adaptado.</li>
+                        <li>Grelha (Grid) de cartões apresentando filamentos e configurações lado a lado.</li>
+                        <li>Formulário de contacto avançado com validação por script.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="anoatual">2026</span> Richard Machado da Rocha | Paraná, Brasil</p>
+    </footer>
+
+    <script>
+        document.getElementById("anoatual").textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

@@ -36,44 +36,51 @@
                 <div class="field-group">
                     <label>Classificação Geral <span class="required">*</span></label>
                     <div class="rating-group">
-                        <label><input type="radio" name="classificacao" value="1" required> ⭐ 1</label>
-                        <label><input type="radio" name="classificacao" value="2" required> ⭐⭐ 2</label>
-                        <label><input type="radio" name="classificacao" value="3" required> ⭐⭐⭐ 3</label>
-                        <label><input type="radio" name="classificacao" value="4" required> ⭐⭐⭐⭐ 4</label>
-                        <label><input type="radio" name="classificacao" value="5" required> ⭐⭐⭐⭐⭐ 5</label>
+                        <div>
+                            <input type="radio" id="star1" name="classificacao" value="1" required>
+                            <label for="star1">⭐ 1</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="star2" name="classificacao" value="2" required>
+                            <label for="star2">⭐⭐ 2</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="star3" name="classificacao" value="3" required>
+                            <label for="star3">⭐⭐⭐ 3</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="star4" name="classificacao" value="4" required>
+                            <label for="star4">⭐⭐⭐⭐ 4</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="star5" name="classificacao" value="5" required>
+                            <label for="star5">⭐⭐⭐⭐⭐ 5</label>
+                        </div>
                     </div>
                 </div>
 
-                <div class="field-group">
-                    <label for="dataInstalacao">Data de Instalação <span class="required">*</span></label>
-                    <input type="date" id="dataInstalacao" name="dataInstalacao" required>
-                </div>
-
+                <!-- Recursos Úteis -->
                 <div class="field-group">
                     <label>Recursos Úteis (Marque todos os aplicáveis):</label>
                     <div class="checkbox-group">
-                        <label><input type="checkbox" name="recursos" value="montagem"> Montagem Fácil</label>
-                        <label><input type="checkbox" name="recursos" value="qualidade"> Alta Qualidade de Impressão</label>
-                        <label><input type="checkbox" name="recursos" value="durabilidade"> Durabilidade do Material</label>
-                        <label><input type="checkbox" name="recursos" value="custobeneficio"> Excelente Custo-Benefício</label>
+                        <div>
+                            <input type="checkbox" id="recurso1" name="recursos" value="montagem">
+                            <label for="recurso1">Montagem Fácil</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="recurso2" name="recursos" value="qualidade">
+                            <label for="recurso2">Alta Qualidade de Impressão</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="recurso3" name="recursos" value="durabilidade">
+                            <label for="recurso3">Durabilidade do Material</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="recurso4" name="recursos" value="custobeneficio">
+                            <label for="recurso4">Excelente Custo-Benefício</label>
+                        </div>
                     </div>
                 </div>
-
-                <div class="field-group">
-                    <label for="avaliacaoEscrita">Avaliação Escrita (Opcional)</label>
-                    <textarea id="avaliacaoEscrita" name="avaliacaoEscrita" rows="4" placeholder="Escreva sua experiência com o componente..."></textarea>
-                </div>
-
-                <div class="field-group">
-                    <label for="nomeUsuario">Nome de Usuário (Opcional)</label>
-                    <input type="text" id="nomeUsuario" name="nomeUsuario" placeholder="Seu nome ou apelido">
-                </div>
-
-                <div class="field-group">
-                    <input type="submit" value="Enviar Avaliação" class="submit-btn">
-                </div>
-            </form>
-        </div>
     </main>
 
     <footer>

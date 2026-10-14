@@ -1,13 +1,13 @@
 :root {
-    --primary-color: rgba(24, 43, 73, 1);
-    --secondary-color: rgba(235, 94, 40, 1);
+    --primary-color: rgba(15, 30, 54, 1);
+    --secondary-color: rgba(195, 65, 15, 1);
     --bg-color: rgba(245, 247, 250, 1);
     --text-color: rgba(33, 37, 41, 1);
     --card-bg: rgba(255, 255, 255, 1);
     --shadow-color: rgba(0, 0, 0, 0.08);
-    --border-color: rgba(206, 212, 218, 1);
-    --footer-bg: rgba(226, 232, 240, 1);
-    --footer-text: rgba(74, 85, 104, 1);
+    --border-color: rgba(170, 180, 190, 1);
+    --footer-bg: rgba(215, 225, 235, 1);
+    --footer-text: rgba(40, 50, 65, 1);
 }
 
 body {
@@ -92,7 +92,7 @@ select:focus,
 textarea:focus {
     outline: none;
     border-color: var(--secondary-color);
-    box-shadow: 0 0 5px rgba(235, 94, 40, 0.3);
+    box-shadow: 0 0 5px rgba(195, 65, 15, 0.3);
 }
 
 .rating-group, .checkbox-group {
@@ -126,11 +126,11 @@ textarea:focus {
 }
 
 .submit-btn:hover, .back-btn:hover {
-    background-color: rgba(200, 75, 25, 1);
+    background-color: rgba(160, 50, 10, 1);
 }
 
 .counter-box {
-    background-color: rgba(240, 244, 248, 1);
+    background-color: rgba(230, 240, 250, 1);
     border-left: 4px solid var(--primary-color);
     padding: 1.5rem;
     margin: 1.5rem 0;

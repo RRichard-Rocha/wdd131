@@ -1,6 +1,6 @@
 :root {
     --primary-color: rgba(15, 30, 54, 1);
-    --secondary-color: rgba(195, 65, 15, 1);
+    --secondary-color: rgba(165, 45, 10, 1);
     --bg-color: rgba(245, 247, 250, 1);
     --text-color: rgba(33, 37, 41, 1);
     --card-bg: rgba(255, 255, 255, 1);
@@ -57,15 +57,22 @@ h2 {
     margin-top: 0;
 }
 
-.field-group {
+.field-group, fieldset.field-group {
     margin-bottom: 1.5rem;
+    border: none;
+    padding: 0;
 }
 
-label {
+label, legend {
     display: block;
     font-weight: 600;
     margin-bottom: 0.5rem;
     color: var(--primary-color);
+}
+
+legend {
+    padding: 0;
+    width: 100%;
 }
 
 .required {
@@ -92,7 +99,7 @@ select:focus,
 textarea:focus {
     outline: none;
     border-color: var(--secondary-color);
-    box-shadow: 0 0 5px rgba(195, 65, 15, 0.3);
+    box-shadow: 0 0 5px rgba(165, 45, 10, 0.3);
 }
 
 .rating-group, .checkbox-group {
@@ -108,6 +115,7 @@ textarea:focus {
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
+    margin-bottom: 0;
 }
 
 .submit-btn, .back-btn {
@@ -126,23 +134,7 @@ textarea:focus {
 }
 
 .submit-btn:hover, .back-btn:hover {
-    background-color: rgba(160, 50, 10, 1);
-}
-
-.counter-box {
-    background-color: rgba(230, 240, 250, 1);
-    border-left: 4px solid var(--primary-color);
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    border-radius: 4px;
-}
-
-.counter-number {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: var(--secondary-color);
-    margin: 0;
+    background-color: rgba(130, 35, 5, 1);
 }
 
 footer {

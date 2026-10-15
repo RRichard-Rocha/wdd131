@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Impressão 3D FDM | Página Inicial</title>
+    <meta name="description" content="Guia completo sobre Impressão 3D FDM, história, galeria interativa de impressoras e dicas para makers.">
+    <meta name="author" content="Seu Nome Completo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/base.css">
+    <link rel="stylesheet" href="estilos/grande.css">
+</head>
+<body>
+    <header>
+        <h1>Impressão 3D FDM</h1>
+        <button id="menu-button" aria-label="Menu de Navegação">≡</button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="materiais.html">Materiais</a></li>
+                <li><a href="dicas.html">Dicas</a></li>
+                <li><a href="referencias.html">Referências</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Bem-vindo ao Universo da Modelagem por Deposição Fundida</h2>
+            <p>A tecnologia FDM (Fused Deposition Modeling) é a forma mais acessível e popular de fabricação aditiva. Ela funciona derretendo e extrudando filamento termoplástico camada por camada para dar forma a objetos físicos complexos.</p>
+        </section>
+
+        <section class="historia">
+            <h2>Breve História do FDM</h2>
+            <p>A tecnologia de Modelagem por Deposição Fundida foi inventada no final da década de 1980 por Scott Crump. Com a expiração de patentes fundamentais, o movimento Open Source impulsionou a popularização global, tornando as impressoras 3D FDM acessíveis para entusiastas, escolas e pequenas empresas.</p>
+        </section>
+
+        <section class="galeria-secao">
+            <h2>Galeria de Impressoras FDM</h2>
+            <nav class="filtro-menu">
+                <button id="filtro-todas" class="filtro-btn active">Todas</button>
+                <button id="filtro-corexy" class="filtro-btn">CoreXY / Alta Velocidade</button>
+                <button id="filtro-cama-movel" class="filtro-btn">Cama Móvel</button>
+            </nav>
+            <div class="res-grid" id="galeria-container"></div>
+        </section>
+
+        <section class="vantagens">
+            <h2>Principais Vantagens do FDM</h2>
+            <ul>
+                <li><strong>Custo-Benefício:</strong> Impressoras e filamentos altamente acessíveis para hobbistas e profissionais.</li>
+                <li><strong>Variedade de Materiais:</strong> Ampla gama de polímeros com propriedades mecânicas e estéticas distintas.</li>
+                <li><strong>Facilidade de Uso:</strong> Ecossistema robusto de softwares e comunidades ativas de apoio.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal FDM | <a href="referencias.html">Página de Referências</a></p>
+    </footer>
+
+    <script src="scripts/projeto.js" defer></script>
+</body>
+</html>

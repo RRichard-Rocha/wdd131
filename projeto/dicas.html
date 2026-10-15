@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Impressão 3D FDM | Dicas e Recursos</title>
+    <meta name="description" content="Dicas de qualidade de impressão, canais educativos do YouTube em destaque, lista interativa de projetos e onde buscar conhecimento em FDM.">
+    <meta name="author" content="Seu Nome Completo">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilos/base.css">
+    <link rel="stylesheet" href="estilos/grande.css">
+</head>
+<body>
+    <header>
+        <h1>Impressão 3D FDM</h1>
+        <button id="menu-button" aria-label="Menu de Navegação">≡</button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="materiais.html">Materiais</a></li>
+                <li><a href="dicas.html" class="active">Dicas</a></li>
+                <li><a href="referencias.html">Referências</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Dicas Essenciais para Makers</h2>
+            <ul>
+                <li><strong>Qualidade de Impressão:</strong> Mantenha seu filamento seco e calibre bem a primeira camada para garantir uma aderência perfeita na mesa.</li>
+                <li><strong>Dicas de Vendas:</strong> Foque em nichos específicos como suportes utilitários, peças técnicas de reposição e personalizações.</li>
+                <li><strong>Onde Obter Modelos:</strong> Utilize plataformas conceituadas como Thingiverse, Printables e Cults3D.</li>
+                <li><strong>Busca por Conhecimento:</strong> Aprofunde-se em guias de calibração oficiais e tutoriais especializados.</li>
+            </ul>
+        </section>
+
+        <section class="canais-secao">
+            <h2>Canais Educativos e Curiosidades em FDM</h2>
+            <p>Explore canais do YouTube dedicados a tutoriais, reviews, dicas de operação e formas de rentabilizar com a impressão 3D:</p>
+            <div class="canais-grid">
+                <div class="canal-card">
+                    <h3>3D Geek Show</h3>
+                    <p>Canal de referência em impressão 3D no Brasil, trazendo reviews detalhados, tutoriais práticos e novidades tecnológicas.</p>
+                    <a href="https://www.youtube.com/@3DGeekShow" target="_blank" rel="noopener" class="canal-btn">Acessar Canal</a>
+                </div>
+                <div class="canal-card">
+                    <h3>Caçadores de Renda</h3>
+                    <p>Focado em dicas de empreendedorismo, unboxings, análises de equipamentos e estratégias de negócios com impressão 3D.</p>
+                    <a href="https://www.youtube.com/@cacadoresderenda6095" target="_blank" rel="noopener" class="canal-btn">Acessar Canal</a>
+                </div>
+                <div class="canal-card">
+                    <h3>Unipedia 3D</h3>
+                    <p>Conteúdo voltado para curiosidades, dicas rápidas e cobertura de eventos do universo da fabricação aditiva.</p>
+                    <a href="https://www.youtube.com/@unipedia3d" target="_blank" rel="noopener" class="canal-btn">Acessar Canal</a>
+                </div>
+                <div class="canal-card">
+                    <h3>Garagem do Inventor</h3>
+                    <p>Traz novidades sobre tecnologia, produtos facilitadores e projetos práticos voltados para o ecossistema maker e FDM.</p>
+                    <a href="https://www.youtube.com/@GaragemDoInventor" target="_blank" rel="noopener" class="canal-btn">Acessar Canal</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="card-interativo">
+            <h2>Minha Lista de Impressões Pendentes</h2>
+            <p>Adicione ideias de projetos que deseja imprimir em 3D:</p>
+            <div class="form-grupo">
+                <label for="projeto-input">Nome do Projeto:</label>
+                <input type="text" id="projeto-input" name="projeto" placeholder="Ex: Suporte para Headset">
+                <button id="adicionar-btn">Adicionar Projeto</button>
+            </div>
+            <ul id="lista-projetos"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Portal FDM | <a href="referencias.html">Página de Referências</a></p>
+    </footer>
+
+    <script src="scripts/projeto.js" defer></script>
+</body>
+</html>

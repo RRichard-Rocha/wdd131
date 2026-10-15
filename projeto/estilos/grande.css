@@ -1,0 +1,21 @@
+@media screen and (min-width: 768px) {
+    #menu-button {
+        display: none;
+    }
+
+    nav ul.navigation {
+        display: flex;
+        position: static;
+        width: auto;
+        background: transparent;
+    }
+
+    nav ul.navigation li a {
+        border-top: none;
+        padding: 0.5rem 1rem;
+    }
+
+    main {
+        max-width: 1100px;
+    }
+}
